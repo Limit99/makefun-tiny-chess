@@ -6,10 +6,11 @@
 
 A chess engine in at most 4 KB of Python: negamax alpha-beta search with
 iterative deepening under a fixed node budget, a transposition table,
-quiescence search over captures, promotions and check evasions, MVV-LVA
-move ordering, and a tapered material + piece-square evaluation built
-from rank/file components. Deterministic: no clock and no unseeded
-randomness, so a replayed trial plays the same moves.
+principal-variation search, quiescence search over captures, promotions
+and check evasions, MVV-LVA and killer move ordering, and a tapered
+material + piece-square evaluation built from rank/file components.
+Deterministic: no clock and no unseeded randomness, so a replayed trial
+plays the same moves.
 
 ## Run it
 
